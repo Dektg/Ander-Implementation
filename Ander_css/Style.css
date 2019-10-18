@@ -1,0 +1,190 @@
+html {background-color: maroon;
+/*background:url("https://pp.userapi.com/RUCmVxufLf0e8Y4wG1-si4SgXkpPqjLyQ32Gqg/duq25WC2UeY.jpg?ava=1")
+repeat-x #fd9a21 right top;*/
+font-family:arial, sans-serif;
+margin: 0;padding: 0;}
+
+
+#gg{color: red;}
+
+.gigi{color: white; font-weight: bold;}
+
+h1.gigi{background-color: maroon;}
+
+h3 strong{color: white;}
+
+p.d,b{font-size: 10px;}
+
+b.blue,b.red,b.yellow,b.green{font-size: 40px;}
+b.blue{color: blue;}
+b.red{color:red;}
+b.yellow{color: yellow}
+b.green{color: green;}
+
+#q1,#q2,#q3,#q4,#q5,#q6{font-size: 40px;}
+#q1{color:blue;}
+#q2{color:red;}
+#q3{color: yellow;}
+#q4{color:blue;}
+#q5{color:green;}
+#q6{color:red;}
+
+p.didd:first-letter{color: green;}
+
+p.didd{font-size: 30px; background-color: maroon;}
+
+p.didd:first-line {color: #2d69c3;}
+
+a.ssaa{color: #2c6fe1;text-decoration: none;}
+
+a.ssaa:hover{color: #2c6fe1; text-decoration: underline;}
+
+a.ssaa:visited{color: #ae3ad5;}
+
+a.ssaa:active{color: #2c6fe1;}
+
+#sty{font-size: 2.1em; font-weight: bold; text-align: justify;}
+
+
+	/*text-indent: 5em; абзац*/
+
+
+#qwert{text-transform: capitalize;}
+#as{text-transform: uppercase;}
+.tut{word-spacing: 1em; font-size: 3em}
+#ww{letter-spacing: 40px;
+	float: left; position: relative; left: 100px;
+	font-family: Arial;
+}
+
+span.ed{line-height: 300%;}
+
+
+#block{border: 6px solid blue;
+	height: 100px;
+	width: 470px;
+	background-color:red;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-top: 30px;
+	padding-left: 10px;}
+#gh {font-size: 400%}
+
+#blo{border: 6px dashed #1e2471;
+    border-radius: 10px;
+	height: 30px;
+	width: 70px;}
+
+#bl{border: 6px double medium;
+	border-radius: 10px;
+	height: 30px;
+	width: 70px;}
+
+#bll{border: 6px groove maroon;
+	border-radius: 10px;
+	height: 30px;
+	width: 0px;}
+
+#bloo{border: 20px ridge purple;
+	height: 30px;
+	width: 70px;}
+
+#blogg{border: 6px inset fuchsia;
+	height: 30px;
+	width: 120px;}
+
+#bloog{border: 6px outset red;
+	border-radius: 10px;
+	height: 30px;
+	width: 80px;
+	box-shadow: inset 0px 0px 10px 1px black}
+
+#blo{border: 6px dashed olive;
+	border-radius: 10px;
+	margin: 5px 50px 20px 150px;
+	padding:1px 50px 2px 40px;
+	height: 30px;
+	background-color: fuchsia;
+	color: olive;
+	width: 60px;}
+
+#blog{border: 6px dotted white;
+	border-radius: 10px;
+	height: 30px;
+	width: 100px;}
+
+#logo{height: calc(var(--logo-height) + var(--logo-margin-bottom));
+    margin-top: var(--logo-margin-top);
+    min-height: fit-content;
+    position: relative;}
+
+footer,aside,article,header{float: left;}
+
+header{width: calc(100% - 20px);
+	height: 50px;
+	position: fixed;
+
+	background-color: white;
+	border-bottom: 2px solid black;
+	padding: 0px 0px 30px 15px;
+	font-size: 1.3em;
+	color: black; border-radius: 10px;
+	font-family: Comic Sans MS;
+	width: 100%}
+
+article,aside{background-color: #d9d9d9;
+	min-height: 400px;
+	border-radius: 5px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin-top: 100px;}
+
+/*.clear{clear: both} пустой блок*/
+
+aside{width: 25%;
+	position: static;
+	padding: 10px;}
+aside ul{margin-left: 10%;
+	width: 80%;
+	list-style-position: inside;
+	list-style-type: circle;
+	/*list-style-image: url("http://abali.ru/wp-content/uploads/2012/03/Dribbble1.png")*/
+}
+
+article{width: 60%;
+	margin-left:5%;
+	margin-right:5%;
+	padding: 10px;
+	position: relative;
+	z-index: -10;
+}
+
+footer{width: calc(100% - 20px);
+	height: 50px;
+	margin-top: 20px;
+	background-color: white;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	font-size: 1.3em;
+	color:black;
+	font-family: Comic Sans MS;}
+
+.ass{display:block;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+	border-radius: 70px;
+	overflow: auto ;
+	padding: 10px;
+	display: inline}
+/*visibility:hidden (скрыть блок но оствить место для него)
+  display:none(скрыть блок без доказательств что он был)
+  display: inline (в одну линию отображение блоков или текста)
+  display: list-item (элементы становятся частью списка)
+
+  overflow: hidden (текст который вылазиет из блока невиден)
+  overflow: scroll (текст который не влазиет можно прокрутить вертикально и горизонтально)
+  overflow: auto (блок будет снабжен полосами прокрутки которые необходимы, лишних не будет)
+*/
