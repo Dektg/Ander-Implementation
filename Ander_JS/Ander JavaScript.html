@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ander</title>
+	<meta charset="utf-8"/>
+	<link href="for.js"/>
+	<script type="text/javascript" href="JavaScript.js"></script>
+</head>
+<body>
+	<noscript>JavaScript не работает</noscript>
+
+	<script type="text/javascript">
+//document.write("Hello World!");
+		var number = 21;
+		var string;
+		string = "Hello World!";
+		var floatnamber = 1.23;
+		var tru;
+		tru = true;
+		document.write("Число; "+number+"<br />"+string+floatnamber+"<br />"+tru)
+
+		var n =67;
+		var ng;
+		var result;
+		ng = 3;
+		result=n*ng;
+		document.write("<br />"+result);
+		result*=x;
+		document.write("<br />");
+		document.write(n + " * " + ng + " = " + (n * ng));
+		document.write("<br />");
+
+/*Сейчас наши цыфры нажодятся в ковычках "" и JavaScript считает что это строки. Но мы добавили перед каждыми именами элементов (Number) и взяли в скобки имена */
+		var str_11 = "12";
+		var str_22 = "24";
+		document.write (Number(str_11) + Number(str_22)+ "<br />");
+
+		/*Еще можно ставить (Namber) в значении переменной*/
+		var str_1 = Number("12");
+		var str_2 = Number("24");
+		document.write (str_1 + str_2);
+		document.write("<br />");
+
+		var bool;
+		var z = 76;
+		var l = 3;
+
+		bool = z < l;
+		document.write (bool);
+		document.write("<br />");
+
+		document.write (10 + " % " + 7 + " = " + (10%7));
+		document.write("<br />");
+/*  Вы можете прибавить или отнять еденицу написав два повторяющихся знака вычитания или сложения */
+		document.write(z-- + " " + z++);
+		document.write("<br />");
+
+/* Вот и простой ИИ */
+		var x = 9;
+		var y = 9;
+		if (x != y)
+			document.write("x != y"+"<br />");
+		else if (x == y)
+			document.write("x == y"+"<br />");
+		else if (x < y)
+			document.write("x < y"+"<br />");
+		else (x > y)
+			document.write("x > y"+"<br />");
+
+
+		var der = 1;
+
+		switch(der){
+			case 1:document.write("Ваше число: 1");break;
+			case 2:document.write("Ваше число: 2");break;
+			case 3:document.write("Ваше число: 3");break;
+			case 4:document.write("Ваше число: 4");break;
+			case 5:document.write("Ваше число: 5");break;
+			default:document.write("Ваше число больше чем 5");break;
+		}
+		document.write("<br />");
+/* Это идеальный условный оператор который внизу. Который говорит да, если x=y и в отрицательном варианте нет */
+		x >= y ? document.write("ДА") : document.write("НЕТ");
+		document.write("<br />");
+
+		var booll = false;
+		if (booll == false)
+/* Можно поставить if(booll) без значения и по умолчанию booll должен быть true*/
+		if(booll)// восклицательный знак (!) значит не равно  if(!booll)
+			document.write("получилось");
+		var dr = 2005;
+		var brif = 89;
+		if (dr == 2005 && brif == 89)
+			document.write("&& значит и!");
+		document.write("<br />");
+
+// || значит или
+		var drr = 205;
+		var brff = 889;
+		if (drr = 205 || brff != 889)
+			document.write("пофиг что истина кажется первое была ложь но я вывелся)");					document.write("<br />");
+
+
+		for(var i=0;i<=10;i++){
+			if(i %3==0 && i != 0) continue;
+			if (i == 8)break;
+			document.write("Номер: "+i + "<br />");
+		}
+
+		var ghg=0;
+		while(ghg < 10){
+			 ghg+=2;//ghg = ghg + 2
+			 document.write(ghg+"  ");
+		}
+
+		var hgj = 1000;
+		do {
+			document.write("<br />Мне пофиг я всеревно сработая ведь я do while");
+		} while(hgj < 100);
+
+								//ВСПЛЫВАЮЩТЕ ОКНА
+		/*var person ="Дима3301";
+		var name;
+		//alert("Приветствую вас, сэр");
+
+		if(confirm("Приветствую вас, сэр")){
+			name=prompt("Как тебя зовут?")
+			alert(name+" хорош балдеть");
+		}else
+			alert("Ну и ладно");*/
+
+
+									//Массивы
+		document.write("<br />");
+		document.write("<br />");
+		var	ar = new Array("Я из массива", 1.32, 7, true);
+		for (var m = 0;m <ar.length;m++)
+			document.write(ar[m] +"<br />");
+
+		document.write("<br />");
+
+
+		ar = new Array();
+		for (m = 0;m<=10;m++){
+			ar[m] = m*3;
+			document.write(ar[m] +"<br />");
+
+		}
+
+		var summ = 0;
+		for (m = 0;m <ar.length;m++)
+			summ += ar[m];
+		document.write("Сумма равна: " + summ);
+		document.write("<br />");
+
+		document.write("Среднее арифметическое значение: " + (summ/ar.length));
+		document.write("<br />");
+
+
+		var arr_1 = new Array;
+		var arr_2 = new Array;
+		var arr_3 = new Array;
+		for(var q = 0;q<5;q++) arr_1[q]=q;
+		for(var q = 0;q<10;q++) arr_2[q]=q;
+		for(var q = 0;q<15;q++) arr_3[q]=q;
+
+		var arrr = new Array(arr_1,arr_2,arr_3);
+		document.write(arrr[0][4] + "<br />"+ "<br />")
+
+		for(var x = 0;x <arrr.length;x++){
+			for (l = 0;l <arrr[x].length;l++)
+				document.write(arrr[x][l] + " ");
+			document.write("<br />");
+
+		}
+
+		var sad;
+		//Это тоже самое что и document.write();
+		function print (text){
+			document.write(text);
+		}
+
+		function count (dff,ffd){
+			sad = dff + ffd;
+		}
+
+		print("Hello Nam ");
+		count (5,7);
+		print(sad);
+
+		document.write("<br />");
+
+		var global = 12;//Эта переменная главная она глобальная
+		//если мы не создадим переменную lokal вне функции то на не будет работать
+		var lokal =10;
+
+		function test (){
+			global++;
+			var lokal = 5;//Эта переменная мнение гланее она локальная
+		}
+
+		test ();
+		document.write("Global - " + global + " Lokal -"+lokal);
+
+
+	</script>
+
+</body>
+</html>
